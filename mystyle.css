@@ -1,0 +1,23 @@
+/* mystyle.css */
+
+.wrapper h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    color: white;
+    background: url('https://i.ytimg.com/vi/MSUqiFhFvGs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDDVIAesm4tIJJDCclTw7hEaegBMA');
+    font-family: 'Kanit';
+}
+
+.wrapper{
+    width: 100;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+}
