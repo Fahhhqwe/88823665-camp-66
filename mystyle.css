@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     /* กำหนดความสูง */
-    min-height: 50vh;
+    min-height: 40vh;
     color: white;
     background: linear-gradient(-45deg, #4158D0, #e560dc, #ffb374, #ef5f5f, #d840b6); /* สั่งไล่เฉดสีตามสีที่ใส่ไแเป็นแนวเฉียง 45 องศา */
     font-family:"Open sans",'Kanit'; /* ใช้ฟ้อนที่ import มา */
