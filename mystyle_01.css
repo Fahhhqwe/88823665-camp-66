@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    font-family: "kanit";
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 100px;
+    font-size: 23px;
+    background-image: url(https://c.pxhere.com/photos/c1/e2/black_board_chalk_traces_school_learn_education_smeared_writing_board-1057578.jpg!d);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table{
+    border-collapse: separate;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
