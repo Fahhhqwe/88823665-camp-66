@@ -17,7 +17,7 @@ $number = 2;
     <h1>สูตรคูณแม่ 2</h1>
     <div class="wrapper">
         <?php
-        echo "<table>"; //เปิดตาราง+เว้นระยะห่างระหว่างช่องให้เท่ากัน+จัดให้ข้อความอยู่ตรงกลาง
+        echo "<table>";
         for ($i = 1; $i <= 12; $i++) {
             echo "<tr>";
             echo "<td>" . $number . " x " . $i . "</td>";
