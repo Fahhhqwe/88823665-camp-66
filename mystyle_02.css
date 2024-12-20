@@ -4,21 +4,41 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70%; /* กำหนดความกว้างเป็นค่าเริ่มต้น */
+    margin: auto; /* ตั้งค่าเริ่มต้นไว้ให้อยู่ตรงกลางเสมอ */
+    padding: 5px; 
+    color: white;
 }
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'kanit';
+    color: white;
 }
 table{
     border-collapse: collapse;
+    width: 70%;
+    margin: 10px auto;
 }
 h1:hover{
-    background-color: lightgray;
+    background-color:#F2F9FF;
     border-radius: 20px;
-    padding: 5px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
+    color: #E195AB;
 } 
+td, th {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px;
+}
+
+h1:hover{
+    background-color:#F2F9FF;
+    border-radius: 20px;
+    color: #E195AB;
+    width: 70%;
+} 
+
+body{
+    background-color: #000000 ;
+}

@@ -6,7 +6,9 @@ h1{
     color: rgb(255, 255, 255);
 }
 
-
+h1:hover{
+    color: rgb(191, 188, 200);
+}
 .wrapper{
     display: flex;
     justify-content: center;
@@ -17,7 +19,6 @@ h1{
 body{
     font-family: "kanit";
     color: rgb(255, 255, 255);
-    margin: 20px;
     padding: 100px;
     font-size: 23px;
     background-image: url(https://c.pxhere.com/photos/c1/e2/black_board_chalk_traces_school_learn_education_smeared_writing_board-1057578.jpg!d);
@@ -30,6 +31,7 @@ table{
     text-align: center;
     border: 2px solid white;
     border-radius: 10px;
+    margin: 5px;
     padding: 10px;
 }
 
