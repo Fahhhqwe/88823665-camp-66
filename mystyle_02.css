@@ -4,17 +4,17 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%; /* กำหนดความกว้างเป็นค่าเริ่มต้น */
+    width: 40%; /* กำหนดความกว้างเป็นค่าเริ่มต้น */
     margin: auto; /* ตั้งค่าเริ่มต้นไว้ให้อยู่ตรงกลางเสมอ */
     padding: 5px; 
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'kanit';
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 table{
     border-collapse: collapse;
@@ -36,7 +36,7 @@ h1:hover{
     background-color:#F2F9FF;
     border-radius: 20px;
     color: #E195AB;
-    width: 70%;
+    width: 50%;
 } 
 
 body{
