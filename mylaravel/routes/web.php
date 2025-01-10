@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Http\Controllers\Mycontroller;
 
-Route::get('/mycontroller/{id?}', [Mycontroller::class, 'myfunction']);
+Route::get('/mycontroller/{id?}', [Mycontroller::class, 'myfunction']); //ดึงค่าที่รับเข้ามาไปใช้ใน myfunction ในคลาส controller จะเห็นข้อมูลที่ส่งไปบน path
 
-Route::post('/mycontroller/{id?}', [Mycontroller::class, 'myfunction']);
+Route::post('/mycontroller/{id?}', [Mycontroller::class, 'myfunction']); //ดึงค่าที่รับเข้ามาไปใช้ใน myfunction ในคลาส controller
 
 // Route::get('/', function () {
 //     return view('welcome');
