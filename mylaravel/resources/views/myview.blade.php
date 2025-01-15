@@ -30,7 +30,7 @@
 
 <body>
     <div class="container">
-        <h1 class="text-center text-primary mb-4">ตารางสูตรคู</h1>
+        <h1 class="text-center text-primary mb-4">ตารางสูตรคูณ</h1>
         <form method="post" action="{{ url('/mycontroller') }}">
             @csrf
             <div class="mb-3">
