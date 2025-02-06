@@ -107,6 +107,7 @@
                         if (userId === 'clickMe') {
                             console.log("Result", result);
                         } else {
+                            console.log("Result", result);
                             document.getElementById("user-" + userId)
                                 .submit(); // "user-" + userId ใช้เพื่อให้เจาะจงไปยังผู้ใช้ได้ถูกคนโดยจะเป็น user-ลำดับของid จะได้ลบถูก
                         }
