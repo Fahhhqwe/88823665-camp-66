@@ -1,6 +1,7 @@
 @extends('layouts.default_with_menu')
 
 @section('content')
+    <h1>{{ session('user')->name }}</h1>
     <style>
         table tbody tr:hover td {
             /*ใช้กับตารางที่มี tbody เมื่อเอาเม้าส์ไปวางที่แถวข้อมูลทั้งแถวนั้นที่มีเม้าส์วางจะเปลี่ยนสี*/
