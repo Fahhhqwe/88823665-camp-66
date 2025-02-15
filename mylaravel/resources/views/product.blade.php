@@ -1,6 +1,14 @@
 @extends('layouts.default_with_menu')
 
 @section('content')
+    <style>
+        table tbody tr:hover td {
+            /*ใช้กับตารางที่มี tbody เมื่อเอาเม้าส์ไปวางที่แถวข้อมูลทั้งแถวนั้นที่มีเม้าส์วางจะเปลี่ยนสี*/
+            color: hotpink;
+            transition: color 0.3s ease-in-out;
+            /* ระยะเวลาการเปลี่ยนสี + ทำให้สีค่อยๆเปลี่ยนแบบสวยๆ */
+        }
+    </style>
     <form action="{{ url('/product') }}" method="post">
         @csrf
         <div class="row mt-3">
@@ -22,7 +30,7 @@
     </form>
 
     <table class="table mt-4">
-        <thead>
+        <thead class="table-dark">
             <tr>
                 <td>#</td>
                 <td>Category Name</td>
@@ -69,4 +77,3 @@
         });
     </script>
 @endsection
-
